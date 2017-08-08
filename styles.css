@@ -9,6 +9,11 @@ body{
 	padding: 20px;
 }
 
+.services:after{
+	content: "";
+	display: block;
+	clear: both; 
+}
 .wrapper:after{
 	content: "";
 	display: block;
@@ -26,7 +31,21 @@ body{
 
 .content{
 	padding: 10px;
-	background: #ccc;
+	clear: both;
+	margin: 20px 1%;
+}
+
+.section, .aside{
+	float: left;
+	width: 46%;
+	margin: 1%;
+	padding: 1%;
+	background: #f2f2f2;
+}
+
+.columns:after{
+	display: block;
+	content: "";
 	clear: both;
 }
 

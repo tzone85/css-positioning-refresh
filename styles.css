@@ -15,7 +15,22 @@ body{
 	clear: both;
 }
 
-.blue{
+.service{
+	float: left;
+	background: #eee;
+	width: 29.33%;
+	margin: 1%;
+	padding: 1%;
+	height: 140px;
+}
+
+.content{
+	padding: 10px;
+	background: #ccc;
+	clear: both;
+}
+
+/*.blue{
 	background: blue;
 	float: right;
 }
@@ -35,7 +50,7 @@ body{
 	width: 100px;
 }
 
-/*img{
+img{
 	float: right;
 	margin: 10px;
 	padding-bottom: 30px;

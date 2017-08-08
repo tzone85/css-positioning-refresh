@@ -15,8 +15,28 @@ body{
 	clear: both;
 }
 
-img{
+.blue{
+	background: blue;
+	float: right;
+}
+
+.red{
+	background: red;
+	float: left;
+}
+
+.green{
+	background: green;
+	float: right;
+}
+
+.box{
+	height: 100px;
+	width: 100px;
+}
+
+/*img{
 	float: right;
 	margin: 10px;
 	padding-bottom: 30px;
-}
+}*/
